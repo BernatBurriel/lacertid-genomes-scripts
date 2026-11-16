@@ -17,10 +17,10 @@ Scripts accompanying the manuscript:
 
 - **Macrosynteny**: [JCVI/MCScan](https://github.com/tanghaibao/jcvi), [DIAMOND](https://github.com/bbuchfink/diamond)
 - **Hi-C**: [cooler](https://github.com/open2c/cooler), R (`data.table`, `ggplot2`, `fmsb`)
-- **GC/gene density**: Python (`pandas`, `matplotlib`, `scipy`)
+- **GC/gene density**: R (`ggplot2`, `dplyr`, `patchwork`, `ape`)
 - **OrthoFinder/AGORA**: [OrthoFinder v3](https://github.com/davidemms/OrthoFinder), [AGORA](https://github.com/sib-swiss/AGORA)
 
 ## Notes
 
-Input files (genome FASTA, GFF3, `.cool` Hi-C files) are available from the European Nucleotide Archive under project accession PRJEB[XXXX].
+Genome assemblies, annotations, and raw sequencing data are available from the European Nucleotide Archive under project accession PRJEB[XXXX].
 Path variables at the top of each script should be set to match your local directory layout.
