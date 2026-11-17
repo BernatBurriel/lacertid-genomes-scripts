@@ -8,7 +8,6 @@
 #   PROT_DIR/  <species>.faa   (longest-isoform proteins)
 #   SPP_FILE   one species code per line
 #   ANCHOR_FILE  two columns: query  subject
-set -euo pipefail
 
 GFF_DIR=gffs          # directory with <sp>.gff3 files
 PROT_DIR=proteomes    # directory with <sp>.faa files
